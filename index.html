@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- icon Of The Page And title -->
+    <link rel="icon" href="">
+    <Title>Redak</Title>
+    <!-- icon Of The Page And title -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description of the page and title">
+    <meta charset="UTF-8">
+
+    <!-- Style Sheets Css And Bootstrab -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="Css/media.css">
+    <!-- Style Sheets Css And Bootstrab -->
+
+</head>
+
+<body>
+    <!-- Nav Bar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom fixed-top" id="navtop">
+        <div class="container-fluid ">
+            <a href="#" class="navbar-brand ms-3 ms-lg-5">
+                <img src="pic/first/navbrand.png" width="35" height="35">
+            </a>
+            <a href="#" class="navbar-brand ms-2 ms-lg-1">
+                <span class="fw-bolder text-Warning" id="navbrand">REDAK</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+                <ul class="navbar-nav fw-bold sm-mt-3">
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#doctors" class="nav-link active text-Warning">Doctors</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#" class="nav-link active text-Warning">Patient</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#" class="nav-link active text-Warning">Hospitals</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#" class="nav-link active text-Warning">Pharmacy</a>
+                    </li>
+                    <li class="nav-item mx-3 d-sm-bolck d-lg-none">
+                        <a href="#" class="nav-link active text-primary">Log in</a>
+                    </li>
+                    <li class="nav-item mx-3 d-sm-bolck d-lg-none">
+                        <a href="#" class="nav-link active text-primary">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+                <ul class="navbar-nav fw-bold sm-mt-3">
+                    <li class="nav-item mx-3 d-none d-lg-inline">
+                        <a href="#" class="btn btn-outline-primary fw-bold ">Log in</a>
+                    </li>
+                    <li class="nav-item mx-3 d-none d-lg-inline">
+                        <a href="#" class="btn btn-outline-primary fw-bold ">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+
+    <!-- Image Of The Home Page -->
+    <div class="container-fluid position-relative mb-3" id="imgfortoppage">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Pic/first/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Pic/first/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Pic/first/3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="joinus" class="container position-absolute top-50 start-50 translate-middle">
+            <div class="row">
+                <div class="col text-center">
+                    <p id="betterpragraph" class="text-center fw-bold fs-sm-4 fs-1 "><mark> Better Medical For A<br>Better World</mark></p>
+                    <button id="bttn" type="button" class="btn btn-primary btn-lg">Join Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Cards Sections -->
+    <div class="container-xl" id="cardsContainer">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded">
+                <div id="cards" class="card me-1">
+                    <img src="Pic/cards/pharmacy.jpg" class="card-img-top" alt="Pharmacies">
+                    <div class="card-body">
+                        <h5 class="card-title">Pharmacies</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded">
+                <div id="cards" class="card me-1">
+                    <img src="Pic/cards/doctors.jpg" class="card-img-top" alt="Call a doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Call a doctor</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded">
+                <div id="cards" class="card me-1">
+                    <img src="Pic/cards/emergency.jpg" class="card-img-top" alt="Emergency">
+                    <div class="card-body">
+                        <h5 class="card-title">Emergency</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded">
+                <div id="cards" class="card">
+                    <img src="Pic/cards/hopital.jpg" class="card-img-top" alt="Hospitals">
+                    <div class="card-body">
+                        <h5 class="card-title">Hospitals</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Section For Doctor Part -->
+    <div class="container-xl reveal fade-left mt-5">
+        <div class="row">
+            <div class="col">
+                <h2 id="doctors" class="fw-bolder ms-4">Doctors</h2>
+            </div>
+        </div>
+        <div id="row2_Section_Doctor" class="row p-2 justify-content-center align-items-center">
+            <div id="clip-path-of-pic" class="col-10 col-md-6 col-lg-8">
+                <img class="mb-1" id="row2_Section_Doctor_img" src="Pic/docotrsection/doctor.jpg" alt="Doctors Working" srcset="">
+            </div>
+            <div class="col-10 col-md-5 col-lg-4">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio error voluptatem eaque, maiores maxime illo voluptatibus facilis consectetur magni provident consequatur modi magnam eos fugit saepe tempore placeat dolor nostrum?
+                    <br><small><a class="text-muted" href="">Join Us</a></small>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!--  Helpful information Section -->
+    <div class="container-xl justify-content-center mt-5 ">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" style="width: 100%;
+        min-height: 27vh;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="alert alert-secondary mt-5" role="alert">
+                        <h2 class="alert-heading">Helpful information</h2>
+                        <h5 class="alert-heading">Consume less salt and sugar</h5>
+                        <p>Filipinos consume twice the recommended amount of sodium, putting them at risk of high blood pressure, which in turn increases the risk of heart disease and stroke. Most people get their sodium through salt. Reduce your salt intake
+                            to 5g per day, equivalent to about one teaspoon. It’s easier to do this by limiting the amount of salt, soy sauce, fish sauce and other high-sodium condiments when preparing meals; removing salt, seasonings and condiments from
+                            your meal table; avoiding salty snacks; and choosing low-sodium products.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="alert alert-secondary mt-5" role="alert">
+                        <h2 class="alert-heading">Helpful information</h2>
+                        <h5 class="alert-heading">Check your blood pressure regularly</h5>
+                        <p class="mb-0">high blood pressure, is called a “silent killer”. This is because many people who have hypertension may not be aware of the problem as it may not have any symptoms. If left uncontrolled, hypertension can lead to heart, brain, kidney
+                            and other diseases. Have your blood pressure checked regularly by a health worker so you know your numbers. If your blood pressure is high, get the advice of a health worker. This is vital in the prevention and control of hypertension.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="alert alert-secondary mt-5" role="alert">
+                        <h2 class="alert-heading">Helpful information</h2>
+                        <h5 class="alert-heading">Drink only safe water</h5>
+                        <p class="mb-0">Drink Unsafe Water can lead to water-borne diseases such as cholera, diarrhoea, hepatitis A, typhoid and polio. Globally, at least 2 billion people use a drinking water source contaminated with faeces. Check with your water concessionaire
+                            and water refilling station to ensure that the water you’re drinking is safe. In a setting where you are unsure of your water source, boil your water for at least one minute. This will destroy harmful organisms in the water.
+                            Let it cool naturally before drinking.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- script of Bootstrab -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <!-- script of Bootstrab -->
+</body>
+
+</html>
