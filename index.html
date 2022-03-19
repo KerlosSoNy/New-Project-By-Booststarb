@@ -23,10 +23,10 @@
     <!-- Nav Bar Section -->
     <nav class="navbar navbar-expand-lg navbar-light border-bottom fixed-top" id="navtop">
         <div class="container-fluid ">
-            <a href="#" class="navbar-brand ms-3 ms-lg-5">
+            <a href="#imgfortoppage" class="navbar-brand ms-3 ms-lg-5">
                 <img src="pic/first/navbrand.png" width="35" height="35">
             </a>
-            <a href="#" class="navbar-brand ms-2 ms-lg-1">
+            <a href="#imgfortoppage" class="navbar-brand ms-2 ms-lg-1">
                 <span class="fw-bolder text-Warning" id="navbrand">REDAK</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
                         <a id="navitems" href="#doctors" class="nav-link active text-Warning">Doctors</a>
                     </li>
                     <li class="nav-item mx-3 mx-lg-5">
-                        <a id="navitems" href="#" class="nav-link active text-Warning">Patient</a>
+                        <a id="navitems" href="#patient" class="nav-link active text-Warning">Patient</a>
                     </li>
                     <li class="nav-item mx-3 mx-lg-5">
                         <a id="navitems" href="#" class="nav-link active text-Warning">Hospitals</a>
@@ -157,10 +157,10 @@
     <!--  -->
 
     <!-- Section For Doctor Part -->
-    <div class="container-xl reveal fade-left mt-5">
+    <div id="doctors" class="container-xl reveal fade-left mt-5">
         <div class="row">
             <div class="col">
-                <h2 id="doctors" class="fw-bolder ms-4">Doctors</h2>
+                <h2 class="fw-bolder ms-4">Doctors</h2>
             </div>
         </div>
         <div id="row2_Section_Doctor" class="row p-2 justify-content-center align-items-center">
@@ -168,8 +168,8 @@
                 <img class="mb-1" id="row2_Section_Doctor_img" src="Pic/docotrsection/doctor.jpg" alt="Doctors Working" srcset="">
             </div>
             <div class="col-10 col-md-5 col-lg-4">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio error voluptatem eaque, maiores maxime illo voluptatibus facilis consectetur magni provident consequatur modi magnam eos fugit saepe tempore placeat dolor nostrum?
-                    <br><small><a class="text-muted" href="">Join Us</a></small>
+                <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio error voluptatem eaque, maiores maxime illo voluptatibus facilis consectetur magni provident consequatur modi magnam eos fugit saepe tempore placeat dolor nostrum?
+                    <br><small><a class="text-muted mt-4" href="">Join Us</a></small>
                 </p>
             </div>
         </div>
@@ -177,9 +177,8 @@
     <!--  -->
 
     <!--  Helpful information Section -->
-    <div class="container-xl justify-content-center mt-5 ">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" style="width: 100%;
-        min-height: 27vh;">
+    <div class="container-xl justify-content-center mt-5 p-5">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="alert alert-secondary mt-5" role="alert">
@@ -193,29 +192,47 @@
                 <div class="carousel-item">
                     <div class="alert alert-secondary mt-5" role="alert">
                         <h2 class="alert-heading">Helpful information</h2>
-                        <h5 class="alert-heading">Check your blood pressure regularly</h5>
-                        <p class="mb-0">high blood pressure, is called a “silent killer”. This is because many people who have hypertension may not be aware of the problem as it may not have any symptoms. If left uncontrolled, hypertension can lead to heart, brain, kidney
-                            and other diseases. Have your blood pressure checked regularly by a health worker so you know your numbers. If your blood pressure is high, get the advice of a health worker. This is vital in the prevention and control of hypertension.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="alert alert-secondary mt-5" role="alert">
-                        <h2 class="alert-heading">Helpful information</h2>
                         <h5 class="alert-heading">Drink only safe water</h5>
                         <p class="mb-0">Drink Unsafe Water can lead to water-borne diseases such as cholera, diarrhoea, hepatitis A, typhoid and polio. Globally, at least 2 billion people use a drinking water source contaminated with faeces. Check with your water concessionaire
                             and water refilling station to ensure that the water you’re drinking is safe. In a setting where you are unsure of your water source, boil your water for at least one minute. This will destroy harmful organisms in the water.
                             Let it cool naturally before drinking.</p>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="alert alert-secondary mt-5" role="alert">
+                        <h2 class="alert-heading">Helpful information</h2>
+                        <h5 class="alert-heading">Consume less salt and sugar</h5>
+                        <p>Filipinos consume twice the recommended amount of sodium, putting them at risk of high blood pressure, which in turn increases the risk of heart disease and stroke. Most people get their sodium through salt. Reduce your salt intake
+                            to 5g per day, equivalent to about one teaspoon. It’s easier to do this by limiting the amount of salt, soy sauce, fish sauce and other high-sodium condiments when preparing meals; removing salt, seasonings and condiments from
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Section For Patient Part -->
+    <div id="patient" class="container-xl reveal fade-right mt-4 mb-2">
+        <div id="row2_Section_Doctor" class="row p-2 justify-content-between align-items-center">
+            <div class="col-10 col-md-5 col-lg-4">
+                <h2 id="doctors" class="fw-bolder ms-3 mb-5">Patient</h2>
+                <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio error voluptatem eaque, maiores maxime illo voluptatibus facilis consectetur magni provident consequatur modi magnam eos fugit saepe tempore placeat dolor nostrum?
+                    <br><small><a class="text-muted mt-4" href="#">Join Us</a></small>
+                </p>
+            </div>
+            <div class="col-10 col-md-6 col-lg-7">
+                <img class="mb-1" id="row2_Section_Patient_img" src="Pic/Patient_Section/beyond.jpg" alt="">
+            </div>
+
         </div>
     </div>
     <!--  -->

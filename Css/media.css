@@ -20,6 +20,10 @@
         width: 75vw;
         height: 40vh;
     }
+    #row2_Section_Patient_img {
+        width: 88.5vw;
+        height: 42vh;
+    }
     #navitems:hover {
         transform: scale(1);
     }
@@ -41,6 +45,10 @@
     #row2_Section_Doctor img {
         width: 78vw;
         height: 35vh;
+    }
+    #row2_Section_Patient_img {
+        width: 88.5vw;
+        height: 42vh;
     }
     #clip-path-of-pic {
         clip-path: none;

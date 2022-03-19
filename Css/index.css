@@ -65,6 +65,10 @@ body {
     animation: fade-left 1.5s ease-in;
 }
 
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+
 #training {
     margin-top: 50px;
     height: 50%;
@@ -74,6 +78,9 @@ body {
     align-items: center;
     color: red;
 }
+
+
+/* Fades */
 
 @keyframes fade-left {
     0% {
@@ -86,11 +93,22 @@ body {
     }
 }
 
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 /*  */
 
 
-/* Doctor Section  */
+/* Doctor Section & Patient Section */
 
 #clip-path-of-pic {
     clip-path: polygon(0 0, 0 100%, 50% 100%, 95% 0%);
@@ -99,6 +117,11 @@ body {
 #row2_Section_Doctor_img {
     width: 42vw;
     height: 50vh;
+}
+
+#row2_Section_Patient_img {
+    width: 38vw;
+    height: 42vh;
 }
 
 
