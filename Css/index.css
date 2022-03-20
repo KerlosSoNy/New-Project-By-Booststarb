@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 * {
     margin: 0px;
     padding: 0%;
@@ -126,3 +127,23 @@ body {
 
 
 /*  */
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: black;
+}
+
+.social-media ul li a:hover {
+    background: gray;
+    color: #fff;
+    border-color: gray;
+}
