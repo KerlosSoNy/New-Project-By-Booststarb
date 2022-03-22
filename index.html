@@ -3,7 +3,7 @@
 
 <head>
     <!-- icon Of The Page And title -->
-    <link rel="icon" href="">
+    <link rel="icon" href="Pic/first/navbrand.png">
     <Title>Redak</Title>
     <!-- icon Of The Page And title -->
 
@@ -21,7 +21,7 @@
 
 <body id="body" class="bg-light text-dark">
     <!-- Nav Bar Section -->
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom fixed-top" id="navtop" style="border: black;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navtop">
         <div class="container-fluid ">
             <a href="#imgfortoppage" class="navbar-brand ms-3 ms-lg-5">
                 <img id="logoofpage" src="pic/first/navbrand.png" width="35" height="35">
@@ -49,12 +49,12 @@
                         <a id="navitems" href="#" class="nav-link active text-Warning">Pharmacy</a>
                     </li>
                     <li class="nav-item mx-3 d-sm-bolck d-lg-none">
-                        <a id="phonebttn" href="#" class="nav-link active text-primary">Log in</a>
+                        <a id="phonebttn" href="/branchPages/choosing/choosing.html" class="nav-link active text-primary">Log in</a>
                     </li>
-                    <li id="" class="nav-item mx-3 d-sm-bolck d-lg-none">
-                        <a id="phonebttn" href="#" class="nav-link active text-primary">Sign Up</a>
+                    <li id="" class="nav-item mx-3 d-sm-block d-lg-none">
+                        <a id="phonebttn" href="/branchPages/choosing-sign/choosing.html" class="nav-link active text-primary">Sign Up</a>
                     </li>
-                    <li class="nav-item mx-3 d-sm-bolck d-lg-none">
+                    <li class="nav-item mx-3 d-sm-block d-lg-none">
                         <button id="darkmodesm" style="background-color: transparent; border: none;">
                             <img src="pic/first/dark-mode.png" alt="dark-mode" style="width: 2rem; height: 2rem;">
                         </button>
@@ -64,10 +64,10 @@
             <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
                 <ul class="navbar-nav fw-bold sm-mt-3">
                     <li class="nav-item mx-3 d-none d-lg-inline">
-                        <a href="#" class="btn btn-outline-primary fw-bold ">Log in</a>
+                        <a href="/branchPages/choosing/choosing.html" class="btn btn-outline-primary fw-bold ">Log in</a>
                     </li>
                     <li class="nav-item mx-3 d-none d-lg-inline">
-                        <a href="#" class="btn btn-outline-primary fw-bold ">Sign Up</a>
+                        <a href="/branchPages/choosing-sign/choosing.html" class="btn btn-outline-primary fw-bold ">Sign Up</a>
                     </li>
                     <li class="nav-item mx-3 d-none d-lg-inline mt-1">
                         <button id="darkmodelg" style="background-color: transparent; border: none;">
@@ -112,7 +112,7 @@
             <div class="row">
                 <div class="col text-center">
                     <p id="betterpragraph" class="text-center fw-bold fs-sm-4 fs-1 "><mark> Better Medical For A<br>Better World</mark></p>
-                    <button id="bttn" type="button" class="btn btn-primary btn-lg">Join Us</button>
+                    <a id="bttn" type="button" class="btn btn-primary btn-lg">Join Us</a>
                 </div>
             </div>
         </div>
@@ -187,7 +187,7 @@
     <!--  -->
 
     <!--  Helpful information Section -->
-    <div style="background-color: #E9ECEF;" class="container-fluid justify-content-center mt-5 p-5 text-center darkback2">
+    <div style="background-color: #E9ECEF;" class="container-fluid justify-content-center mt-5 p-5 text-center darkback2 d-none d-md-block d-lg-block">
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true" data-bs-interval="false" data-bs-ride="carousel">
@@ -310,6 +310,57 @@
     </div>
     <!--  -->
 
+    <!-- Contact US  -->
+    <div class="container w-100 w-lg-50">
+        <div class="row">
+            <div id="contactUs" class="row ms-1 mt-5 shadow mb-5 rounded bg-light text-dark">
+                <div class="col-12 col-lg-7">
+                    <div class="border-bottom mb-4 text-center">
+                        <h1 class="text-danger fw-light m-4">
+                            Write Us
+                        </h1>
+                        <p class="mt-3 fw-bold">We will Be Happy To Receive Your Inquiries And Suggestions.</p>
+                    </div>
+                    <div class="row align-items-center mb-3 justify-content-between">
+                        <div class="col-12 col-lg-6">
+                            <label for="inputPassword6" class="col-form-label">Your Name<span
+                                    style="color: red;">*</span></label>
+                            <input type="text" placeholder="Full Name" id="" class="form-control" aria-describedby="">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="" class="col-form-label">Email Adress<span style="color: red;">*</span></label>
+                            <input placeholder="Email" type="" id="" class="form-control" aria-describedby="">
+                        </div>
+                        <div class="col-12 col-lg-12">
+                            <label for="" class="col-form-label">Comments<span style="color: red;">*</span></label>
+                            <textarea class="form-control" id="w3review" name="w3review" rows="5"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-primary m-3 send-mail rounded-pill " style="width:150px">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 text-center bg-primary text-light">
+                    <!-- Links -->
+                    <h1 class="fw-light m-4">
+                        Contact Us
+                    </h1>
+                    <h3 class="fw-light mt-5 mb-5">Cario, Maadie, Eg</h3>
+                    <div class="mt-5">
+                        <p class=" mt-5 mb-5 fs-3"> <a href="email:KerO@yahoo.com" class="text-decoration-none text-light fs-4"><span>Email: </span>info@example.com</a></p>
+                        <p class=" mt-5 mb-5 fs-3">
+                            <a href="tel:01124567288" class="text-decoration-none text-light fs-4"> <span>Phone: </span>+0112 456 7288</a>
+                        </p>
+                        <p class=" mt-5 mb-5 fs-3">
+                            <a href="tel:01124567288" class="text-decoration-none text-light fs-4"> <span>Phone: </span>+0101 956 7225</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact US  -->
+
     <!-- Footer -->
     <footer id="footer" class="text-center text-lg-start bg-light text-muted mt-5">
         <!-- Section: Links  -->
@@ -357,27 +408,11 @@
                             Useful links
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset">Doctors</a>
+                            <a href="branchPages/agreement.html" class="text-reset">Privacy Agreement</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Medicine</a>
+                            <a href="branchPages/terms&conditions.html" class="text-reset">Terms and Conditions</a>
                         </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Contact
-                        </h6>
-                        <p>Cario, Maadie, Eg</p>
-                        <p> <a href="tel:01124567288" class="text-decoration-none">info@example.com</a></p>
-                        <p><a href="tel:01124567288" class="text-decoration-none"> +0112 456 7288</a></p>
-                        <p><a href="tel:01124567288" class="text-decoration-none"> +0101 956 7225</a></p>
                     </div>
                     <!-- Grid column -->
                 </div>

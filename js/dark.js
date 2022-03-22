@@ -10,6 +10,7 @@ let cards = document.querySelectorAll('.darkback');
 let cards2 = document.querySelector('.darkback2');
 bttndarklg.addEventListener("click", darkMood_on_off);
 bttndarksm.addEventListener("click", darkMood_on_off);
+let contact = document.querySelector('#contactUs')
 
 function darkMood_on_off() {
     body1.classList.toggle("bg-dark");
@@ -27,4 +28,9 @@ function darkMood_on_off() {
     cards2.classList.toggle("text-light");
     foot.classList.toggle("bg-light");
     foot.classList.toggle("bg-dark");
+    contact.classList.toggle("bg-light");
+    contact.classList.toggle("bg-dark");
+    contact.classList.toggle("text-light");
+    contact.classList.toggle("text-dark");
+    contact.classList.toggle("shadow p-3 mb-5 bg-white rounded")
 };
